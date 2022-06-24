@@ -1,0 +1,58 @@
+body {
+  margin: 0px;
+}
+
+header {
+  width: 100%;
+  padding: 10px;
+  color :#fff;
+  background-color :#2427c5;
+}
+
+footer{
+  width: 100%;
+  padding: 10px;
+  color :#fff;
+  background-color :#2427c5;
+  position: fixed;
+  bottom: 0;
+}
+
+.container {
+  margin: 50px 15px;
+  max-width: 100%;
+  display: block;
+}
+
+.notice {
+  border: solid 1px rgb(44, 176, 0);
+  background-color: #e2ffdf;
+  padding: 15px;
+  width: 30%;
+}
+.notice2 {
+  border: solid 1px red;
+  background-color: #ffdfdf;
+  padding: 15px;
+  width: 30%;
+}
+
+table {
+  max-width: 100%;
+  text-align:center;
+  border: solid 1px grey;
+  border-collapse: collapse;  // セルの境界線を共有
+  border-spacing: 0;  // 隣り合うセルの境界線の指定
+}
+
+table th {
+  border: solid 1px grey;
+  background-color: #dfefff;
+  padding: 10px 20px;
+}
+
+table td {
+  border: solid 1px grey;
+  background-color: #c8cff161;
+  padding: 10px 20px;
+}
